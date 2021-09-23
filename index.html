@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+    body {
+      font-family: 'Fira Code', monospace;
+  }
+
+  input[type=text] {
+    height: 100px
+  }
+  
+  .nav {
+      background-color: black;
+      color: white;
+  }
+  
+  a.nav-link {
+      color: white;
+  }
+  
+  a.nav-link:hover {
+      background-color: white;
+      color: black;
+  }
+  
+  h2 {
+      text-align: center;
+  }
+  
+  .card {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  
+  .container {
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+  }
+  
+  .about-section {
+      height: 400px;
+  }
+  
+  form{
+      border: 1px solid black;
+      margin: auto;
+      width: 50%;
+  }
+  
+  .submit {
+      background-color: black;
+      color: white;
+  }
+  
+  .card-img-top {
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+  }
+
+  .card-img-top:hover {
+    filter: grayscale(0%);
+  }
+  
+</style>
+    <title>Adam Kollat</title>
+</head>
+<body>
+    <header>
+        <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#things_i_do">Things I Do</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li> -->
+          </ul>
+        <img src="images/color_hero.png" alt="hero image" style="max-width: 100%;">
+    </header>
+    <section>
+        <div class= "container about-section" id="about">
+            <h2>About Me</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent auctor vehicula risus quis lacinia. Nunc rutrum diam nec tellus ornare, sed ultrices libero imperdiet. Aliquam lacus dui, posuere a dapibus quis, mollis vitae libero. Mauris tincidunt erat eu risus tristique mattis. Vestibulum iaculis metus turpis, a auctor diam sagittis nec. Nulla vulputate non nibh quis hendrerit. Etiam quis laoreet leo.</p>
+        </div>
+        <div id="things_i_do" class= "container">
+            <h2>Things I Do</h2>
+            <div class="card-deck">
+                <div class="card col-sm-12 col-md-6 col-lg-4" style="width: 18rem;">
+                    <img class="card-img-top" src="images/coding_card_top.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Coding</h5>
+                      <p class="card-text">I started coding during the first Covid lockdown and what started out as an unusual interest eventually turned into a new career.</p>
+                    </div>
+                  </div>
+                  <div class="card col-sm-12 col-md-6 col-lg-4" style="width: 18rem;">
+                    <img class="card-img-top" src="images/fitness_card_cap.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Fitness</h5>
+                      <p class="card-text">Weightlifting has been an important part of my life for over five years now. I have a fully equipeed home gym and work out regularly.  </p>
+                    </div>
+                  </div>
+                  <div class="card col-sm-12 col-md-6 col-lg-4" style="width: 18rem;">
+                    <img class="card-img-top" src="images/travel_image_cap.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Travel</h5>
+                      <p class="card-text">I love to travel around the globe with my family. We regularly arrange weekend trips to European locations carrying only a backpackful of items.</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class= "container">
+                   <div class="card-deck">
+                <div class="card col-sm-12 col-md-6 col-lg-4" style="width: 18rem;">
+                    <img class="card-img-top" src="images/music_imagecap.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Music</h5>
+                      <p class="card-text">I am a lifelong fan of heavy metal music. My all time favourite band is Metallica - I try to see them live any time they're in the UK.</p>
+                    </div>
+                  </div>
+                  <div class="card col-sm-12 col-md-6 col-lg-4" style="width: 18rem;">
+                    <img class="card-img-top" src="images/food_image_cap.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Food</h5>
+                      <p class="card-text">Throughout my years in hospitality I've developed a deep passion for food. I enjoy cooking and I love to eat. Street foods are my absolute weakness. </p>
+                    </div>
+                  </div>
+                  <div class="card col-sm-12 col-md-6 col-lg-4" style="width: 18rem;">
+                    <img class="card-img-top" src="images/random_imagecap.jpg" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Random Facts</h5>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">I once jumped out of an airplane traveling at 10000ft.</li>
+                        <li class="list-group-item">The best dessert I've ever had was breaded porkbelly with salted caramel ice cream.</li>
+                        <!-- <li class="list-group-item">I am a fully qualified Personal Trainer.</li> -->
+                      </ul>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div id="contact" class="container form-container">
+          <h2>Contact me</h2>
+        <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Message</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter Your message here">
+            </div>
+            <button type="submit" class="btn submit btn-primary">Submit</button>
+          </form>
+        </div>
+          <footer>
+              <p>Copyright Adam Kollat 2021</p>
+          </footer>
+    </section>
+</body>
+</html>
